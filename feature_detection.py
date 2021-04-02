@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-# !IMPORTANT: Chnage the directory to save your results for every img_func in the 'status' variable
+# !IMPORTANT: Change the directory to save your results for every img_func in the 'status' variable
 def SIFT_IMG(img):
 	sift = cv2.xfeatures2d.SIFT_create()
 	kps = sift.detect(img, None)
